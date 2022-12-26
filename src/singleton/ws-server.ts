@@ -29,9 +29,11 @@ class WSS {
       });
 
       this.subscribers++;
+      console.log(`${this.subscribers} subscriber/s`);
 
       ws.on('close', () => {
         this.subscribers--;
+        console.log(`Connection dropped; now ${this.subscribers} subscriber/s`);
       });
     });
   }
