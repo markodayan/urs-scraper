@@ -1,5 +1,8 @@
 import WebSocket, { Server } from 'ws';
 
+/**
+ * WebSocket Server that will broadcast to Worker and API application clients
+ */
 class WSS {
   private static instance: WSS;
   private server: Server;
