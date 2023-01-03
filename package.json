@@ -1,8 +1,8 @@
 {
-  "name": "ws-client-server-boilerplate",
+  "name": "urs-scraper",
   "version": "1.0.0",
-  "description": "Admin setup:",
-  "main": "index.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
     "dev": "NODE_ENV=development npm run start:dev",
     "start:dev": "ts-node-dev -r tsconfig-paths/register ./src/server.ts",
